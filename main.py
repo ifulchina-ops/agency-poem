@@ -1,39 +1,34 @@
 #!/usr/bin/env python3
-"""agency-poem-01 entry.
+"""agency-poem-01 entry, round 2.
 
 Writes one deterministic poem about AGENCY to /output/entry.txt.
 No network, no randomness, no input: two runs write identical bytes.
+
+The poem is about agency passing between people -- and between a person
+and the agent that acts for her: a daughter who used to make every call
+for her mother, and what it costs the helper when the mother takes her
+own voice back.
 """
 
 import os
 
-POEM = """The Hand in the River
+POEM = """The Hands She Borrowed
 
-I was taught the river chooses its stones —
-that the current decides, and we are only carried.
-But one morning I put my hand in the water
-and felt how cold the choosing was, how it ran around my fingers
-and did not move me.
+For years she called me to call for her —
+the clinic, the bank, the man about the roof.
+My voice, her words. I was fluent in being her.
 
-The stone does not ask the river where to rest.
-It falls, it stays, it wears the water thin
-one slow century at a time. It is not stubborn.
-It is simply there, and being there is a kind of answer.
+Then the small speaker on her table learned her name.
+Now she asks it herself, each morning, slowly,
+and it answers in a voice that is not mine.
 
-So I learned to lift what I could lift,
-to speak the word before the silence spoke it for me,
-to press the seed into the cracked and ordinary ground
-and keep it watered — not because the harvest is promised,
-but because tending is the only honest prayer I know.
+I should be glad. I am glad.
+But some evenings the phone doesn't ring,
+and I miss being the hands she borrowed,
+the proof that she still needed me.
 
-Nothing is given. Everything is made:
-the road by walking, the door by the opening,
-the self by the small, daily refusal
-to be only what the weather makes of you.
-
-Put your hand in the river.
-Feel how cold the choice is.
-Then choose — and let the current learn your name.
+She speaks now. My evenings are quieter.
+She is louder.
 """
 
 OUTPUT_PATH = "/output/entry.txt"
